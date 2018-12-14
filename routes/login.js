@@ -48,9 +48,14 @@ app.post('/', (req, res) => {
             token: token,
             id: usuarioDB._id
         });
+
     })
 
+
 });
+
+
+
 
 
 module.exports = app;
